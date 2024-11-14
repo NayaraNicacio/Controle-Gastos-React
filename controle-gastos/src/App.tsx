@@ -3,7 +3,7 @@ import capainicial from './assets/capainicial.jpg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0) // contador de visitas
 
   return (
     <>
@@ -12,18 +12,14 @@ function App() {
           <img src={capainicial} className="logo react" alt="capa inicial" />
        
       </div>
-      <h1>Despesas</h1>
+      <h1>Bem Vindo ao Economic Trayde Layds</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+       
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+     
     </>
   )
 }
